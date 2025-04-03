@@ -15,7 +15,7 @@ class BirthdayApp {
 
   /* ========== 倒计时模块 ========== */
   setupCountdown() {
-    this.targetDate = new Date('2026-12-12T00:00:00+08:00');
+    this.targetDate = new Date('2025-12-12T00:00:00+08:00');
     this.timeElements = {
       days: document.getElementById('days'),
       hours: document.getElementById('hours'),
